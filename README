@@ -1,0 +1,13 @@
+Since I used C++, you might need to install 'gcc-c++'
+I used 'yum install gcc-c++', you can use an equivalent command based on your distro.
+
+Once you execute ./makeme, it will create an executable file called 'runme'.
+
+I have an input file by the name 'input'
+ 
+I executed ./runme input 50 > output
+
+So the corresponding output is in the 'output' file.
+
+Tested for various error conditions, works perfectly. Implements Worst Fit and also coalesces adjacent holes.
+
