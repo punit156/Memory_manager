@@ -1,0 +1,21 @@
+1 malloc 20 /*      Spaced    Comments  */
+2		 print
+3     malloc     10
+4 print
+5 malloc 10
+6 malloc 10
+7 print
+8 free 6
+9 print
+10 free 5    /* Freeing 5 units from ID 10 */
+11 print
+12 malloc 25/*Comment starting immediately after command*/
+6 malloc 15
+14 print
+15 free 3
+16 malloc 4
+17 print   
+18 malloc 5
+19 print   /*Commentswithoutspace*/
+20 free 1
+21 print
