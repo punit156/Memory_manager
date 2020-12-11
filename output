@@ -1,0 +1,85 @@
+Allocated space : 20 for ID : 1 starting from address : 0
+
+-------------------Print Memory Output----------------------
+Allocated start_address = 0 size = 20
+Hole      start_address = 20 size = 30
+------------------------------------------------------------
+
+Allocated space : 10 for ID : 3 starting from address : 20
+
+-------------------Print Memory Output----------------------
+Allocated start_address = 0 size = 20
+Allocated start_address = 20 size = 10
+Hole      start_address = 30 size = 20
+------------------------------------------------------------
+
+Allocated space : 10 for ID : 5 starting from address : 30
+Allocated space : 10 for ID : 6 starting from address : 40
+
+-------------------Print Memory Output----------------------
+Allocated start_address = 0 size = 20
+Allocated start_address = 20 size = 10
+Allocated start_address = 30 size = 10
+Allocated start_address = 40 size = 10
+------------------------------------------------------------
+
+Removing process ID : 6 and freeing up 10 units of memory from location 40
+
+-------------------Print Memory Output----------------------
+Allocated start_address = 0 size = 20
+Allocated start_address = 20 size = 10
+Allocated start_address = 30 size = 10
+Hole      start_address = 40 size = 10
+------------------------------------------------------------
+
+Removing process ID : 5 and freeing up 10 units of memory from location 30
+
+-------------------Print Memory Output----------------------
+Allocated start_address = 0 size = 20
+Allocated start_address = 20 size = 10
+Hole      start_address = 30 size = 20
+------------------------------------------------------------
+
+Can't allocate 25 units of space. Not enough space
+Allocated space : 15 for ID : 6 starting from address : 30
+
+-------------------Print Memory Output----------------------
+Allocated start_address = 0 size = 20
+Allocated start_address = 20 size = 10
+Allocated start_address = 30 size = 15
+Hole      start_address = 45 size = 5
+------------------------------------------------------------
+
+Removing process ID : 3 and freeing up 10 units of memory from location 20
+Allocated space : 4 for ID : 16 starting from address : 20
+
+-------------------Print Memory Output----------------------
+Allocated start_address = 0 size = 20
+Allocated start_address = 20 size = 4
+Hole      start_address = 24 size = 6
+Allocated start_address = 30 size = 15
+Hole      start_address = 45 size = 5
+------------------------------------------------------------
+
+Allocated space : 5 for ID : 18 starting from address : 24
+
+-------------------Print Memory Output----------------------
+Allocated start_address = 0 size = 20
+Allocated start_address = 20 size = 4
+Allocated start_address = 24 size = 5
+Hole      start_address = 29 size = 1
+Allocated start_address = 30 size = 15
+Hole      start_address = 45 size = 5
+------------------------------------------------------------
+
+Removing process ID : 1 and freeing up 20 units of memory from location 0
+
+-------------------Print Memory Output----------------------
+Hole      start_address = 0 size = 20
+Allocated start_address = 20 size = 4
+Allocated start_address = 24 size = 5
+Hole      start_address = 29 size = 1
+Allocated start_address = 30 size = 15
+Hole      start_address = 45 size = 5
+------------------------------------------------------------
+
